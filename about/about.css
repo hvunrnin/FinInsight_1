@@ -78,23 +78,28 @@ input::placeholder, textarea::placeholder{
     word-spacing: 0px;
 }
 
-#artiwrapper{
-    display: flex;
-    padding: 70px 120px 70px 110px;
-    align-items: flex-start;
+#combined-wrapper {
     max-width: 1000px;
-    margin: 10px auto;
+    margin: 0 auto;
+    padding: 70px 110px;
+    background-color: white;
+}
+
+#artiwrapper {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 50px; /* teamwrapper와의 간격 조정 */
 }
 
 #image-container{
-    width: 580px;
+    width: 500px;
     height: 300px;
     background-color: rgb(69, 71, 71);
-    margin-right: 30px;
+    margin-right: 20px;
 }
 
 #text-container{
-    width: 640px;
+    width: 502px;
 }
 
 #text-title{
@@ -104,7 +109,7 @@ input::placeholder, textarea::placeholder{
 }
 
 #text-container p{
-    font-size: 15px;
+    font-size: 14.5px;
     color: rgb(163, 163, 163);
     line-height: 2;
     margin-bottom: 30px;
@@ -122,10 +127,7 @@ input::placeholder, textarea::placeholder{
 
 #teamwrapper{
     text-align: center;
-    padding : 5px 120px 0px 110px;
     background-color: white;
-    max-width: 1000px;
-    margin: 10px auto;
 }
 
 #team-title {
@@ -148,7 +150,6 @@ input::placeholder, textarea::placeholder{
     height: 15px; /* 이미지의 높이에 맞게 조정 */
     line-height: 15px; /* 텍스트를 가운데로 정렬 */
     vertical-align: middle; /* 텍스트와 이미지의 수직 정렬 */
-    margin-left: 5px; /* 텍스트와 이미지 간의 여백 조정 */
 }
 
 
@@ -158,13 +159,13 @@ input::placeholder, textarea::placeholder{
 }
 
 .team-member {
-    padding: 15px;
+    padding: 10px;
     text-align: center;
 }
 
 .team-member .member-photo {
-    width: 235px;
-    height: 210px;
+    width: 240px;
+    height: 220px;
     background-color: #333; /* 기본 회색 배경 */
     margin-bottom: 35px;
 }
